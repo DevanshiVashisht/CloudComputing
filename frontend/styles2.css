@@ -1,0 +1,121 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat as the primary font */
+    background-image: url('food1.jpg'); /* Replace with your image path or URL */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    margin: 0;
+    padding: 20px;
+    color: #4A4A4A; /* Set text color to ensure visibility on the background */
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; /* Change text color if needed for visibility */
+}
+
+/* Other existing styles remain unchanged */
+
+
+
+/* Other existing styles remain unchanged */
+
+
+h1 {
+    text-align: center;
+    color: #4A4A4A; /* Dark gray color */
+}
+
+#recipe-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ffc2d1; /* Green color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffc2d1; /* Darker green on hover */
+}
+
+#recommendations {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for recommendations */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe {
+    margin: 20px 0;
+}
+
+.ingredients-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredients-list li {
+    padding: 5px;
+    background-color: #e9ecef; /* Light gray for ingredient items */
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.footer {
+    text-align: center; /* Center the footer */
+    margin-top: 20px;
+    /* font-style: italic;  Italicize the text */
+    font-family: 'Cursive'; /* Optional: use a cute font */
+}
+.recipe {
+    margin: 20px 0;
+    padding: 20px; /* Add padding for content */
+    background-color: #f9f9f9; /* Light gray background for recipes */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.ingredients-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.ingredients-list li {
+    padding: 5px; /* Space within each list item */
+    background-color: #e9ecef; /* Light gray for ingredient items */
+    border-radius: 4px; /* Rounded corners for each item */
+    margin: 5px 0; /* Space between items */
+}
+
+.image-container {
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center the image horizontally */
+    margin: 20px 0;        /* Space around the image container */
+}
+
+.recipe-image {
+    max-width: 200px;            /* Limit the max width */
+    border: 2.5px solid #4A4A4A;   
+    border-radius: 8px;          /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Recipe Recommender</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Recipe Recommender</h1>
+        <div class="form-box">
+            <form id="recipe-form">
+                <input type="text" id="dietary-preference" placeholder="Dietary Preference (e.g., Vegan)" required>
+                <input type="text" id="ingredients" placeholder="Ingredients (comma-separated)" required>
+                <input type="text" id="budget" placeholder="Budget" required>
+                
+                <button type="submit">Get Recommendations</button>
+                <button type="button" onclick="clearForm()">Clear Form</button>
+            </form>
+        </div>
+        <div id="recommendations" class="recommendations-box"></div>
+    </div>
+
+    <div class="footer">
+        <p>Created by Devanshi 21BIT0068</p>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
+
